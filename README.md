@@ -4,11 +4,21 @@
 
 Exchange rates are sourced from the Bank of England's daily spot rates database. Rates represent the value of foreign currencies against Sterling (GBP), US Dollars (USD), and Euros (EUR).
 
+## Data Files
+
+| File                             | Description                                                    |
+|----------------------------------|----------------------------------------------------------------|
+| boe_exchange_rates.csv           | Contains only the most recent trading day's exchange rates     |
+| boe_exchange_rates_full_hist.csv | Contains the complete historical record of all exchange rates since 2026-01-01  |
+
+Both files share the same schema. The latest rates file is overwritten on each run, while the full history file is appended to with new data.
+
 ## Currency Reference
 
 | Currency Name      | ISO Code |
 |--------------------|----------|
 | Australian Dollar  | AUD      |
+| Brazilian Real     | BRL      |
 | Canadian Dollar    | CAD      |
 | Chinese Yuan       | CNY      |
 | Czech Koruna       | CZK      |
