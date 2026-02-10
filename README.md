@@ -3,6 +3,7 @@
 ## Data Source
 
 Exchange rates are sourced from the Bank of England's daily spot rates database. Rates represent the value of foreign currencies against Sterling (GBP), US Dollars (USD), and Euros (EUR).
+https://www.bankofengland.co.uk/boeapps/database/Rates
 
 ## Data Files
 
