@@ -54,4 +54,3 @@ Both files share the same schema. The latest rates file is overwritten on each r
 | Base Currency       | Base currency for conversion (GBP)     |
 | Conversion Currency | Target currency ISO code               |
 | Exchange Rate       | Units of foreign currency per 1 GBP    |
-| Calculation Type    | Rate derivation method                 |
